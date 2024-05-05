@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1px;
+}
+
+div.main {
+    padding: 0 120px;
+    max-width: 1440px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+}
+
+/* thongtin */
+/* top */
+div.main div.thongtintop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #599736;
+    width: 100%;
+    color: #FFF;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+div.main div.thongtintop div.left {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+div.main div.thongtintop div.right {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+}
+
+div.main div.thongtintop a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+div.main div.thongtintop a:hover {
+    color: yellow;
+}
+
+/* center */
+div.main div.thongtincenter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71BF45;
+    width: 100%;
+    align-items: center;
+}
+
+/* Style thanh tìm kiếm */
+.search-container {
+    position: relative;
+    margin: 50px auto;
+    max-width: 300px;
+}
+
+.search-input {
+    padding: 10px 40px 10px 10px;
+    /* Thêm padding để icon nằm trong input */
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn các góc cho input */
+    outline: none;
+    background-color: #f2f2f2;
+    /* Màu nền */
+}
+
+.search-input::placeholder {
+    color: #999;
+    /* Màu chữ placeholder */
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background-color: transparent;
+    /* Loại bỏ màu nền */
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn các góc cho nút search */
+    color: #000;
+    /* Đặt màu chữ cho nút search */
+    cursor: pointer;
+}
+
+div.main div.thongtincenter a {
+    text-decoration: none;
+}
+
+div.main div.thongtincenter a:hover {
+    color: yellow;
+}
+
+/* bottom */
+div.main div.thongtinbottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71BF45;
+    width: 100%;
+    height: 45px;
+    padding: 0 14px;
+    align-items: center;
+}
+
+div.main div.thongtinbottom a {
+    text-decoration: none;
+    color: white;
+}
+
+div.main div.thongtinbottom a:hover {
+    color: yellow;
+}
+
+div.main div.thongtinbottom div.baohanh button {
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: red;
+    border: none;
+}
+
+div.main div.thongtinbottom img {
+    width: 25px;
+    height: 25px;
+}
+
+/* info */
+div.info {
+    width: 100%;
+}
+
+/* head */
+div.info div.head {
+    padding: 10px 0;
+    background-color: gray;
+    color: black;
+
+}
+
+div.info div.head a {
+    text-decoration: none;
+    opacity: 50%;
+    color: white;
+}
+
+div.info div.head a:hover {
+    opacity: 1;
+    color: black;
+}
+
+/* bodyinfo */
+div.bodyinfo {
+    display: flex;
+}
+
+/* left */
+.cartegory-left {
+    width: 15%;
+    padding: 10px;
+}
+
+/* .cartegory-left-li p {} */
+
+.cartegory-left ul p {
+    font-weight: bold;
+}
+
+.cartegory-left ul li {
+    padding: 12px 0;
+    list-style: none;
+}
+
+.cartegory-left ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cartegory-left ul li ul li {
+    padding-left: 10px;
+}
+
+.cartegory-left-li ul {
+    display: none;
+}
+
+.cartegory-left-li.block ul {
+    display: block;
+}
+
+/* right */
+/* top */
+.cartegory-right {
+    align-items: center;
+}
+
+.cartegory-right-top {
+    align-items: center;
+}
+
+.cartegory-right-top-item:first-child {
+    flex: 2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cartegory-right-top-item {
+    flex: 1;
+}
+
+.cartegory-right-top-item select {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+/* sanpham */
+div.info div.right {
+    width: 85%;
+    padding: 0 10px;
+}
+
+div.info div.right ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+div.info div.right ul.produc li {
+    flex-basis: 20%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.info div.right ul.produc li img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+div.info div.right .produc-info a {
+    text-decoration: none;
+    /* display: block; */
+    color: black;
+}
+
+    
+
+/* End */
+div.main div.end div.topend {
+    background: #71BF45;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 5%;
+    margin-bottom: 15px;
+}
+
+div.main div.end div.topend ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+div.main div.end div.ceneterend {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+    grid-gap: 20px 3%;
+    padding: 50px 0;
+}
+
+div.main div.end div.ceneterend a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* button shopping */
+.shopping-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+
+  .shopping-cart a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+  }
+
+  .shopping-cart a:hover {
+    background-color: #0056b3;
+  }

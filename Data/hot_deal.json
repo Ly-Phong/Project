@@ -1,0 +1,29 @@
+{
+  "hot_deal": [
+    {
+      "name": "HỘP PHAO GỖ KOI",
+      "image": "./tainguyenhome/b2.jpg",
+      "price": "Giá: 378.000đ"
+    },
+    {
+      "name": "DÙ LINH THÚ - HUYỀN VŨ - 2M2 (CÂY)",
+      "image": "./tainguyenhome/d1.jpg",
+      "price": "Giá: 850.000đ"
+    },
+    {
+      "name": "ĐỠ GÁC CẦN CHỐNG GIÓ - 2M1 (CÂY)",
+      "image": "./tainguyenhome/v1.jpg",
+      "price": "Giá: 196.000đ"
+    },
+    {
+      "name": "CẦN CÂU TAY LONG ẢNH - (CÂY)",
+      "image": "./tainguyenhome/c4.png",
+      "price": "Giá: 2.100.000đ"
+    },
+    {
+      "name": "BAO CẦN VẢI DÙ REDWOLF - 125x11x5 - ĐEN (CÁI)",
+      "image": "./tainguyenhome/b3.jpg",
+      "price": "203.000đ"
+    }
+  ]
+}

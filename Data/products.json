@@ -1,0 +1,514 @@
+{
+    "mocau_products": [
+        {
+            "name": "MỒI ĐẤT (GÓI 1000 GRAM)",
+            "image": "./sanpham/mocau/1.jpg",
+            "category": "Mồi câu",
+            "price": "19000"
+        },
+        {
+            "name": "HẮC MỘC - MỒI TỔNG HỢP (GÓI - 200G)",
+            "image": "./sanpham/mocau/2.jpg",
+            "category": "Mồi câu",
+            "price": "18000"
+        },
+        {
+            "name": "MỒI TỔNG HỢP SỐ 3",
+            "image": "./sanpham/mocau/3.jpg",
+            "category": "Mồi câu",
+            "price": "24000"
+        },
+        {
+            "name": "MỒI BÔNG TUYẾT - TS08 (GÓI - 170GRAM)",
+            "image": "./sanpham/mocau/4.png",
+            "category": "Mồi câu",
+            "price": "24000"
+        },
+        {
+            "name": "TÔM LANH (GÓI)",
+            "image": "./sanpham/mocau/5.jpg",
+            "category": "Mồi câu",
+            "price": "25000"
+        },
+        {
+            "name": "TÔM HOÀNG KIM ĐẠI CA ĐẠI - MÃ 204 - CÁ RÔ PHI",
+            "image": "./sanpham/mocau/6.jpg",
+            "category": "Mồi câu",
+            "price": "25000"
+        },
+        {
+            "name": "MỒI CÂU PROTEIN",
+            "image": "./sanpham/mocau/7.jpg",
+            "category": "Mồi câu",
+            "price": "25000"
+        },
+        {
+            "name": "LỤC MỘC",
+            "image": "./sanpham/mocau/8.jpg",
+            "category": "Mồi câu",
+            "price": "25000"
+        },
+        {
+            "name": "CẦN LONG CHIẾN CỰC",
+            "image": "./sanpham/cancau/1.png",
+            "category": "Cần câu",
+            "price": "1680000"
+        },
+        {
+            "name": "CẦN CÂU TAY PHI ƯNG",
+            "image": "./sanpham/cancau/2.jpeg",
+            "category": "Cần câu",
+            "price": "1650000"
+        },
+        {
+            "name": "CẦN TỐC ĐẤU VƯƠNG - 5H - 3M6",
+            "image": "./sanpham/cancau/3.jpg",
+            "category": "Cần câu",
+            "price": "6100000"
+        },
+        {
+            "name": "CẦN THANH LONG TITAN 7H - 3M9",
+            "image": "./sanpham/cancau/4.jpg",
+            "category": "Cần câu",
+            "price": "5900000"
+        },
+        {
+            "name": "CẦN ĐÔNG ĐẠO VÔ CỰC 2024 - D46 - 3M6",
+            "image": "./sanpham/cancau/5.jpg",
+            "category": "Cần câu",
+            "price": "4230000"
+        },
+        {
+            "name": "CẦN MRT PHI THIÊN HẠ 2023 - 7H - 3M69",
+            "image": "./sanpham/cancau/6.png",
+            "category": "Cần câu",
+            "price": "5700000"
+        },
+        {
+            "name": "CẦN THANH LONG - 8.5H - 3M69",
+            "image": "./sanpham/cancau/7.jpg",
+            "category": "Cần câu",
+            "price": "4070000"
+        },
+        {
+            "name": "CẦN SĂN HÀNG THIÊN THANH - 4M5",
+            "image": "./sanpham/cancau/8.png",
+            "category": "Cần câu",
+            "price": "2910000"
+        },
+        {
+            "name": "CẦN CHIẾN HÃN - 10H 3M6",
+            "image": "./sanpham/cancau/9.jpg",
+            "category": "Cần câu",
+            "price": "4946000"
+        },
+        {
+            "name": "CẦN TIÊN PHONG - 2M7",
+            "image": "./sanpham/cancau/10.jpg",
+            "category": "Cần câu",
+            "price": "590000"
+        },
+        {
+            "name": "TRỤC LÀM SẴN 3260 - 3M6 - 1.2 (BỘ)",
+            "image": "./sanpham/daycau/1.jpg",
+            "category": "Dây câu",
+            "price": "19000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN HẠT NỖI - MANI SỐ 8 - 3M6",
+            "image": "./sanpham/daycau/2.jpg",
+            "category": "Dây câu",
+            "price": "25000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN DELICATE 3M6 1.5",
+            "image": "./sanpham/daycau/3.jpg",
+            "category": "Dây câu",
+            "price": "29000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN HY - 3M6 2.5 (CÁI)",
+            "image": "./sanpham/daycau/4.jpg",
+            "category": "Dây câu",
+            "price": "30000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN TÁC KÈ 3M6 1.5 (BÔ)",
+            "image": "./sanpham/daycau/5.jpg",
+            "category": "Dây câu",
+            "price": "35000"
+          },
+          {
+            "name": "THẺO SH LONGYAN VÀNG SỐ 7 CN #6.0",
+            "image": "./sanpham/daycau/6.jpg",
+            "category": "Dây câu",
+            "price": "35000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN LONGYAN 3M6 1.5",
+            "image": "./sanpham/daycau/7.jpg",
+            "category": "Dây câu",
+            "price": "35000"
+          },
+          {
+            "name": "THẺO PE TÓM SẴN 36cm #1.0 CN U6",
+            "image": "./sanpham/daycau/8.jpg",
+            "category": "Dây câu",
+            "price": "39000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN M LIINEX 3M6 1.5 (BỘ)",
+            "image": "./sanpham/daycau/9.jpg",
+            "category": "Dây câu",
+            "price": "40000"
+          },
+          {
+            "name": "TRỤC LÀM SẴN CÂU MÈ 5M4 3.0 (BỘ)",
+            "image": "./sanpham/daycau/10.jpg",
+            "category": "Dây câu",
+            "price": "49000"
+          },
+          {
+            "name": "GHẾ SĂN HÀNG HAPP FISHING MÃ A",
+            "image": "./sanpham/ghecau/1.jpg",
+            "category": "ghế câu",
+            "price": "2350000"
+          },
+          {
+            "name": "GHẾ ĐỊA HÌNH LIANQUI CAO CẤP C21",
+            "image": "./sanpham/ghecau/2.jpg",
+            "category": "ghế câu",
+            "price": "2250000"
+          },
+          {
+            "name": "GHẾ CÂU MINGTU CAO CẤP 2023 FULL",
+            "image": "./sanpham/ghecau/3.jpg",
+            "category": "ghế câu",
+            "price": "1950000"
+          },
+          {
+            "name": "GHẾ CÂU ĐÀI LQ (BỘ)",
+            "image": "./sanpham/ghecau/4.jpg",
+            "category": "ghế câu",
+            "price": "1750000"
+          },
+          {
+            "name": "GHẾ CÂU ĐÀI BENNO (CÁI)",
+            "image": "./sanpham/ghecau/5.jpg",
+            "category": "ghế câu",
+            "price": "1850000"
+          },
+          {
+            "name": "GHẾ CÂU ĐÀI CB 03 (BỘ)",
+            "image": "./sanpham/ghecau/6.jpg",
+            "category": "ghế câu",
+            "price": "750000"
+          },
+          {
+            "name": "GHẾ CÂU ĐÀI CB 02 (BỘ)",
+            "image": "./sanpham/ghecau/7.jpg",
+            "category": "ghế câu",
+            "price": "650000"
+          },
+          {
+            "name": "GHẾ CAU ĐÀI CB 01 (BỘ)",
+            "image": "./sanpham/ghecau/8.jpg",
+            "category": "ghế câu",
+            "price": "680000"
+          },
+          {
+            "name": "LƯỠI CÂU SIÊU NHẸ CHINU SỐ 7 CN",
+            "image": "./sanpham/luoi/1.jpg",
+            "category": "Lưỡi câu",
+            "price": "69000"
+          },
+          {
+            "name": "LƯỠI SÊU NHẸ MÃ B SỐ 0.8 KN (HỘP 50C)",
+            "image": "./sanpham/luoi/2.jpg",
+            "category": "Lưỡi câu",
+            "price": "49000"
+          },
+          {
+            "name": "LƯỠI SÊU NHẸ MÃ A SỐ 6 KN (HỘP 50C)",
+            "image": "./sanpham/luoi/3.jpg",
+            "category": "Lưỡi câu",
+            "price": "49000"
+          },
+          {
+            "name": "LƯỠI SÊU NHẸ MÃ C SỐ 8 KN (HỘP 50C)",
+            "image": "./sanpham/luoi/4.jpg",
+            "category": "Lưỡi câu",
+            "price": "49000"
+          },
+          {
+            "name": "LƯỠI TỤ LẬT 2023 (GÓI 12C)",
+            "image": "./sanpham/luoi/5.png",
+            "category": "Lưỡi câu",
+            "price": "60000"
+          },
+          {
+            "name": "LƯỠI CÂU TỔNG HỢP SỐ 7 CN (GÓI 50C)",
+            "image": "./sanpham/luoi/6.jpg",
+            "category": "Lưỡi câu",
+            "price": "95000"
+          },
+          {
+            "name": "LƯỠI VẢY RẮN U CN SỐ 6 (GÓI 50C)",
+            "image": "./sanpham/luoi/7.jpg",
+            "category": "Lưỡi câu",
+            "price": "99000"
+          },
+          {
+            "name": "LƯỠI VÀNG ĐEN CN MÃ U SỐ 1 (50C)",
+            "image": "./sanpham/luoi/8.jpg",
+            "category": "Lưỡi câu",
+            "price": "99000"
+          },
+          {
+            "name": "LƯỠI VÀNG ĐEN CN MÃ C SỐ 1 (50C)",
+            "image": "./sanpham/luoi/9.jpg",
+            "category": "Lưỡi câu",
+            "price": "99000"
+          },
+          {
+            "name": "LƯỠI TITAN XANH RĂNG SÓI KN (GÓI 50C)",
+            "image": "./sanpham/luoi/10.jpg",
+            "category": "Lưỡi câu",
+            "price": "79000"
+          },
+          {
+            "name": "PHAO LÔNG CÔNG PRO FISHING 2023 (CÂY)",
+            "image": "./sanpham/phaocau/1.jpg",
+            "category": "Phao câu",
+            "price": "230000"
+          },
+          {
+            "name": "PHAO LÔNG CÔNG GHÉP 8 MẢNH RP C01",
+            "image": "./sanpham/phaocau/2.jpg",
+            "category": "Phao câu",
+            "price": "280000"
+          },
+          {
+            "name": "PHAO DIÊU HỒNG NHẠC DƯƠNG F 804 SỐ 1",
+            "image": "./sanpham/phaocau/3.jpg",
+            "category": "Phao câu",
+            "price": "95000"
+          },
+          {
+            "name": "PHAO CỎ NHẠC DƯƠNG Q-01 (CÂY)",
+            "image": "./sanpham/phaocau/4.jpg",
+            "category": "Phao câu",
+            "price": "150000"
+          },
+          {
+            "name": "PHAO CỎ SƯƠNG NGHI N-11 VÀNG SỐ 1",
+            "image": "./sanpham/phaocau/5.jpg",
+            "category": "Phao câu",
+            "price": "150000"
+          },
+          {
+            "name": "PHAO BẠCH CÔNG TỬ NQ-01 (CÂY)",
+            "image": "./sanpham/phaocau/6.png",
+            "category": "Phao câu",
+            "price": "250000"
+          },
+          {
+            "name": "PHAO LÔNG CÔNG GHÉP 6 MẢNH KT",
+            "image": "./sanpham/phaocau/7.jpg",
+            "category": "Phao câu",
+            "price": "380000"
+          },
+          {
+            "name": "PHAO SĂN HÀNG HIMARO FD-004 (CÂY)",
+            "image": "./sanpham/phaocau/8.jpg",
+            "category": "Phao câu",
+            "price": "75000"
+          },
+          {
+            "name": "PHAO TAIWAN MINI PL PL (CÂY)",
+            "image": "./sanpham/phaocau/9.jpg",
+            "category": "Phao câu",
+            "price": "49000"
+          },
+          {
+            "name": "PHAO CỎ GUOLIN (CÂY)",
+            "image": "./sanpham/phaocau/10.jpg",
+            "category": "Phao câu",
+            "price": "125000"
+          },
+          {
+            "name": "QUẤN CẦN QYUFU PRO",
+            "image": "./sanpham/phukien/1.png",
+            "category": "Phụ kiện",
+            "price": "120000"
+          },
+          {
+            "name": "QUẦN CÀN QYUFU 2024 1M5 HỒNG",
+            "image": "./sanpham/phukien/2.png",
+            "category": "Phụ kiện",
+            "price": "59000"
+          },
+          {
+            "name": "DÙ CÂU QYUFU 2024",
+            "image": "./sanpham/phukien/3.png",
+            "category": "PHỤ KIÊN",
+            "price": "1800000"
+          },
+          {
+            "name": "DÂY BẢO HIỂM THẬT HỒNG 50M (CUỘN)",
+            "image": "./sanpham/phukien/4.jpg",
+            "category": "PHỤ KIỆN",
+            "price": "95000"
+          },
+          {
+            "name": "HỘP PHAO GỖ PRO FISHING 65CM HUYẾT",
+            "image": "./sanpham/phukien/6.jpg",
+            "category": "PHỤ KIỆN",
+            "price": "650000"
+          },
+          {
+            "name": "KÉO QUỶ CÔNG (CÁI)",
+            "image": "./sanpham/phukien/5.png",
+            "category": "PHỤ KIỆN",
+            "price": "195000"
+          },
+          {
+            "name": "ĐẦU GÁC CẦN ĐA NĂNG TH2 (KÈM TÚI VẢI)",
+            "image": "./sanpham/phukien/7.jpg",
+            "category": "PHỤ KIỆN",
+            "price": "430000"
+          },
+          {
+            "name": "NGOE GÁC CẦN ĐA NAGNG8 TH2 (KÈM TÚI VẢI)",
+            "image": "./sanpham/phukien/8.jpg",
+            "category": "PHỤ KIỆN",
+            "price": "630000"
+          },
+          {
+            "name": "COMBO DEDN92 CÂU ĐÊM 2023 (BỘ)",
+            "image": "./sanpham/phukien/9.jpg",
+            "category": "PHỤ KIỆN",
+            "price": "600000"
+          },
+          {
+            "name": "",
+            "image": "./sanpham/thungcau/2.jpeg",
+            "category": "THÙNG CÂU",
+            "price": "1780000"
+          },
+          {
+            "name": "THÙNG PRO FISHING 2024 29L ĐEN (CÁI)",
+            "image": "./sanpham/thungcau/3.jpg",
+            "category": "THÙNG CÂU",
+            "price": "2600000"
+          },
+          {
+            "name": "THÙNG CÂU WEBAOLAI 29L (CÁI)",
+            "image": "./sanpham/thungcau/4.png",
+            "category": "THÙNG CÂU",
+            "price": "2600000"
+          },
+          {
+            "name": "THÙNG CÂU YUFU",
+            "image": "./sanpham/thungcau/5.png",
+            "category": "THÙNG CÂU",
+            "price": "1600000"
+          },
+          {
+            "name": "THÙNG CÂU XSAMTIN KỶ NIỆM 7 NĂM 27L ĐEN",
+            "image": "./sanpham/thungcau/6.png",
+            "category": "THÙNG CÂU",
+            "price": "1800000"
+          },
+          {
+            "name": "THÙNG CÂU LEIJE ĐEN (CÁI)",
+            "image": "./sanpham/thungcau/9.jpg",
+            "category": "THÙNG CÂU",
+            "price": "1600000"
+          },
+          {
+            "name": "RỌNG MỒI ĐẤT 2024 45CM X 2M8",
+            "image": "./sanpham/vot/1.jpg",
+            "category": "VỢT - GÁC CẦN - RỘNG CÁ",
+            "price": "1200000"
+          },
+          {
+            "name": "RỌNG CHÌ LÁ 2024 - 45CM X 2M8",
+            "image": "./sanpham/vot/2.jpg",
+            "category": "VỢT - GÁC CẦN - RỘNG CÁ",
+            "price": "1200000"
+          },
+          {
+            "name": "RỌNG PRO FISHING 2024 - 45CM X 2M8",
+            "image": "./sanpham/vot/3.jpg",
+            "category": "VỢT - GÁC CẦN - RỘNG CÁ",
+            "price": "1200000"
+          },
+          {
+            "name": "CÁN VỢT RÁP VÔ SONG 2023 - 2M1 (CÂY)",
+            "image": "./sanpham/vot/4.png",
+            "category": "VỢT - GÁC CẦN - RỘNG CÁ",
+            "price": "1100000"
+          },
+          {
+            "name": "GÁC CẦN AURORA (CÂY)",
+            "image": "./sanpham/vot/5.jpg",
+            "category": "VỢT - GÁC CẦN - RỘNG CÁ",
+            "price": "850000"
+          },
+          {
+            "name": "CÁN VỢT THIÊN THANH TH2 - 2M1",
+            "image": "./sanpham/vot/6.png",
+            "category": "VỢT - GÁC CẦN - RỘNG CÁ",
+            "price": "1620000"
+          },
+          {
+            "name": "ÁO CÂU YUFU 3DS XANH DƯƠNG L",
+            "image": "./sanpham/thoitrang/1.png",
+            "category": "THỜI TRANG",
+            "price": "950000"
+          },
+          {
+            "name": "NÓN MRT 2023 (XANH)",
+            "image": "./sanpham/thoitrang/2.jpg",
+            "category": "THỜI TRANG",
+            "price": "280000"
+          },
+          {
+            "name": "NÓN YUFU XÁM TRẮNG",
+            "image": "./sanpham/thoitrang/3.png",
+            "category": "THỜI TRANG",
+            "price": "250000"
+          },
+          {
+            "name": "ÁO THUN YUFU",
+            "image": "./sanpham/thoitrang/4.jpg",
+            "category": "THỜI TRANG",
+            "price": "450000"
+          },
+          {
+            "name": "QUẦN CHÌ LÁ",
+            "image": "./sanpham/thoitrang/5.jpg",
+            "category": "THỜI TRANG",
+            "price": "250000"
+          },
+          {
+            "name": "ÁO MỒI CÂU ĐẤT L",
+            "image": "./sanpham/thoitrang/6.jpg",
+            "category": "THỜI TRANG",
+            "price": "250000"
+          },
+          {
+            "name": "ÁO MỒI CÂU ĐẤT L",
+            "image": "./sanpham/thoitrang/7.jpeg",
+            "category": "THỜI TRANG",
+            "price": "250000"
+          },
+          {
+            "name": "ÁO MỒI CÂU ĐẤT L",
+            "image": "./sanpham/thoitrang/8.jpg",
+            "category": "THỜI TRANG",
+            "price": "250000"
+          }
+        ]
+}

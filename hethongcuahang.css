@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1px; /* Thiết lập font-size của html thành 1px */
+}
+div.main {
+    padding: 0 120px;
+    max-width: 1440px;
+    font-size: 14px; /* Thay đổi kích thước font mặc định (ví dụ 16px) */
+}
+div.main div.thongtintop{
+    display: flex;
+    justify-content: space-between;
+    background-color: #599736;
+    width: 100%;
+    color: #FFF;
+    padding: 5px 10px;
+    align-items: center;
+}
+div.main div.thongtintop div.left{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+div.main div.thongtintop div.right{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+div.main div.thongtintop a{
+    color: #FFF;
+    text-decoration: none;
+}
+div.main div.thongtintop a:hover{
+    color: yellow;
+}
+div.main div.thongtincenter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #71BF45;
+    width: 100%;
+    align-items: center;
+}
+div.main div.thongtincenter a{
+    text-decoration: none;
+}
+div.main div.thongtincenter a:hover{
+    color: yellow;
+}
+div.main div.thongtinbottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #71BF45;
+    width: 100%;
+    height: 45px;
+    padding: 0 14px;
+}
+/* Style thanh tìm kiếm */
+.search-container {
+    position: relative;
+    margin: 50px auto;
+    max-width: 300px;
+}
+
+.search-input {
+    padding: 10px 40px 10px 10px;
+    /* Thêm padding để icon nằm trong input */
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn các góc cho input */
+    outline: none;
+    background-color: #f2f2f2;
+    /* Màu nền */
+}
+
+.search-input::placeholder {
+    color: #999;
+    /* Màu chữ placeholder */
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background-color: transparent;
+    /* Loại bỏ màu nền */
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn các góc cho nút search */
+    color: #000;
+    /* Đặt màu chữ cho nút search */
+    cursor: pointer;
+}
+div.main div.thongtinbottom a{
+    text-decoration: none;
+    color: white;
+}
+div.main div.thongtinbottom a:hover{
+    color: yellow;
+}
+div.main div.thongtinbottom div.baohanh button{
+    border-radius: 40%;
+    background-color: red;
+}
+div.main div.thongtinbottom img{
+    width: 25px;
+    height: 25px;
+}
+div.danhmucsanpham div.subsanpham a{
+    color: black;
+    font-weight: bold;
+}
+div.danhmucsanpham div.subsanpham{
+    display: none;
+
+}
+div.danhmucsanpham:hover div.subsanpham {
+    display: block;
+}
+div.subsanpham{
+    background-color: #FFF;
+    padding: 5px 5px;
+    width: 130rem;
+}
+/* info */
+div.info h1{
+    text-transform: uppercase;
+    color: #2ecc71;
+}
+/* End */
+div.main div.end div.topend{
+    background: #71BF45;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 5%;
+    margin-bottom: 15px;
+}
+div.main div.end div.topend ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+div.main div.end div.ceneterend{
+    display: grid;    
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;    
+    grid-gap: 20px 3%;    
+    padding: 50px 0;
+}
+div.main div.end div.ceneterend a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}

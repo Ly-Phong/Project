@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      div.main {
+        padding: 0 120px;
+        max-width: 1440px;
+        font-size: 14px; /* Thay đổi kích thước font mặc định (ví dụ 16px) */
+      }
+      /* thongtin */
+      div.main div.thongtintop {
+        display: flex;
+        justify-content: space-between;
+        background-color: #599736;
+        width: 100%;
+        color: #fff;
+        padding: 5px 10px;
+        align-items: center;
+      }
+      div.main div.thongtintop div.left {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+      }
+      div.main div.thongtintop div.right {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+      }
+      div.main div.thongtintop a {
+        color: #fff;
+        text-decoration: none;
+      }
+      div.main div.thongtintop a:hover {
+        color: yellow;
+      }
+      div.main div.thongtincenter {
+        display: flex;
+        justify-content: space-between;
+        background-color: #71bf45;
+        width: 100%;
+        align-items: center;
+      }
+
+      div.main div.thongtincenter a {
+        text-decoration: none;
+      }
+      div.main div.thongtincenter a:hover {
+        color: yellow;
+      }
+      /* Style thanh tìm kiếm */
+      .search-container {
+        position: relative;
+        margin: 50px auto;
+        max-width: 300px;
+      }
+
+      .search-input {
+        padding: 10px 40px 10px 10px;
+        /* Thêm padding để icon nằm trong input */
+        width: 300px;
+        border: none;
+        border-radius: 25px;
+        /* Bo tròn các góc cho input */
+        outline: none;
+        background-color: #f2f2f2;
+        /* Màu nền */
+      }
+
+      .search-input::placeholder {
+        color: #999;
+        /* Màu chữ placeholder */
+      }
+
+      .search-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        background-color: transparent;
+        /* Loại bỏ màu nền */
+        border: none;
+        border-radius: 25px;
+        /* Bo tròn các góc cho nút search */
+        color: #000;
+        /* Đặt màu chữ cho nút search */
+        cursor: pointer;
+      }
+      div.main div.thongtinbottom {
+        display: flex;
+        justify-content: space-between;
+        background-color: #71bf45;
+        width: 100%;
+        height: 45px;
+        padding: 0 14px;
+      }
+      div.main div.thongtinbottom a {
+        text-decoration: none;
+        color: white;
+      }
+      div.main div.thongtinbottom a:hover {
+        color: yellow;
+      }
+      div.main div.thongtinbottom div.baohanh button {
+        border-radius: 40%;
+        background-color: red;
+      }
+      div.main div.thongtinbottom img {
+        width: 25px;
+        height: 25px;
+      }
+      div.danhmucsanpham div.subsanpham a {
+        color: black;
+        font-weight: bold;
+      }
+      div.danhmucsanpham div.subsanpham {
+        display: none;
+      }
+      div.danhmucsanpham:hover div.subsanpham {
+        display: block;
+      }
+      div.subsanpham {
+        background-color: #fff;
+        padding: 5px 5px;
+        width: 130rem;
+      }
+      /* End */
+      div.main div.end div.topend {
+        background: #71bf45;
+        color: #ffffff;
+        border-radius: 15px;
+        padding: 30px 5%;
+        margin-bottom: 15px;
+      }
+      div.main div.end div.topend ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: wrap;
+      }
+      div.main div.end div.ceneterend {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+        grid-gap: 20px 3%;
+        padding: 50px 0;
+      }
+      div.main div.end div.ceneterend a {
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+      }
+      body {
+        padding-top: 20px;
+      }
+
+      .container {
+        padding: 30px 0;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      .table {
+        margin-bottom: 20px;
+      }
+
+      .text-right {
+        margin-top: 20px;
+      }
+
+      .text-center {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="thongtin">
+        <div class="thongtintop">
+          <div class="left">
+            <div>Đồ câu chì lá shop</div>
+            <div>&#9993;Email: chilashop2811@gmail.com</div>
+          </div>
+          <div class="right">
+            <a href="./dangnhap.html">Đăng Nhập </a>
+            <a href="./dangky.html">Đăng ký </a>
+            <a href="./tatcasanpham.html">Sản Phẩn </a>
+            <a href="./hethongcuahang.html">Hệ thống cửa hàng </a>
+            <a href="http://baohanh.chilashop.com/">Bảo hành sản phẩm</a>
+          </div>
+        </div>
+        <div class="thongtincenter">
+          <!-- background-color #71BF45 -->
+          <div class="logo">
+            <img src="./tainguyenhome/1.png" alt="" />
+          </div>
+          <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input" />
+            <button type="submit" class="search-button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div class="dtgiohang">
+            <p>Gọi đặt hàng 0903 365 247</p>
+            <a href="giohang.html">giỏ hàng</a>
+          </div>
+        </div>
+        <div class="thongtinbottom">
+          <!-- background-color #71BF45 -->
+          <div class="danhmucsanpham">
+            <a href="./tatcasanpham.html">TẤT CẢ SẢN PHẨM</a>
+          </div>
+          <div class="home"><a href="./trangchu.html">TRANG CHỦ</a></div>
+          <div class="gioithieu"><a href="./gioithieu.html">GIỚI THIỆU</a></div>
+          <div class="videosanpham">
+            <a href="https://www.youtube.com/channel/UCzDfzbpTsZDmooHZ6xtmjRA"
+              >VIDEO SẢN PHẨM</a
+            >
+          </div>
+          <div class="fb">
+            <a href="https://www.facebook.com/SHOPCHILA/">FACEBOOK</a>
+          </div>
+          <div class="tintuc"><a href="">TIN TỨC</a></div>
+          <div class="lienhe"><a href="">LIÊN HỆ</a></div>
+          <div class="baohanh">
+            <button>
+              <a href="http://baohanh.chilashop.com/">Bảo hành sản phẩm</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Shopping Cart</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Product 1</td>
+              <td>$10.00</td>
+              <td>1</td>
+              <td>$10.00</td>
+              <td><button class="btn btn-danger btn-sm">Remove</button></td>
+            </tr>
+            <tr>
+              <td>Product 2</td>
+              <td>$20.00</td>
+              <td>2</td>
+              <td>$40.00</td>
+              <td><button class="btn btn-danger btn-sm">Remove</button></td>
+            </tr>
+            <!-- Add more rows for additional products -->
+          </tbody>
+        </table>
+        <div class="text-right">
+          <strong>Total: $50.00</strong>
+        </div>
+        <div class="text-center mt-3">
+          <button class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+      <!-- info -->
+      <div class="end">
+        <div class="topend">
+          <ul>
+            <li>
+              <p>0903 365 247</p>
+              Hotline liên hệ (tất cả các ngày trong tuần)
+            </li>
+            <li>
+              <p>chilashop2811@gmail.com</p>
+              Hỗ trợ đơn hàng
+            </li>
+            <li>
+              <p>08:00 - 20:00</p>
+              Thứ 2 đến Chủ nhật
+            </li>
+          </ul>
+        </div>
+        <div class="ceneterend">
+          <div class="a1">
+            <img src="./tainguyenhome/1.png" alt="" />
+            <p>
+              <span style="font-size: 11px"
+                >Chuyên cung cấp dụng cụ, phụ tùng, mồi câu, quần áo, chi tiết
+                lắp ráp….</span
+              >
+            </p>
+            <p>
+              <span style="font-size: 11px"
+                >cần câu cá chính hãng lớn nhất Miền Nam Việt Nam.</span
+              >
+            </p>
+            <p>
+              <span style="font-size: 11px"
+                ><strong>Tên hộ kinh doanh</strong>: HỘ KINH DOANH
+                CHILASHOP.</span
+              >
+            </p>
+            <p>
+              <span style="font-size: 11px"
+                ><b>Mã số thuế</b>: 0317376523.</span
+              >
+            </p>
+            <p>
+              <span style="font-size: 11px"
+                ><strong>Giấy phép đăng kí kinh doanh số:</strong>
+                41O8040975.</span
+              >
+            </p>
+            <p>
+              <span style="font-size: 11px"
+                ><strong>Ngày cấp:</strong> 04/08/2020.</span
+              >
+            </p>
+            <p>
+              <span style="font-size: 11px"
+                ><strong>Nơi cấp</strong>: UBND QUẬN BÌNH THẠNH - PHÒNG KINH
+                TẾ.</span
+              >
+            </p>
+          </div>
+          <div class="a2">
+            <h1 style="font-size: 14px">DANH MỤC SẢN PHẨM</h1>
+            <ul>
+              <li><a href="moi-cau-ca">MỒI CÂU CÁ</a></li>
+              <li><a href="can-cau-tay">CẦN CÂU TAY</a></li>
+              <li><a href="day-cau">DÂY CÂU</a></li>
+              <li><a href="phu-kien">PHỤ KIỆN</a></li>
+              <li><a href="phao-cau-ca">PHAO CÂU CÁ</a></li>
+              <li><a href="thung-cau">THÙNG CÂU</a></li>
+              <li><a href="ghe-cau">GHẾ CÂU</a></li>
+              <li><a href="vot-gac-can-rong-ca">VỢT - GÁC CẦN - RỘNG CÁ</a></li>
+              <li><a href="luoi-cau">LƯỠI CÂU</a></li>
+              <li><a href="thoi-trang">THỜI TRANG</a></li>
+            </ul>
+          </div>
+          <div class="a3">
+            <ul>
+              <li><a href="chinh-sach-tra-gop">Chính sách vận chuyển</a></li>
+              <li><a href="chinh-sach-tra-hang">Chính sách trả hàng</a></li>
+              <li><a href="chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+              <li><a href="chinh-sach-nguoi-dung">Chính sách bảo mật</a></li>
+              <li><a href="chinh-sach-mua-hang">Hướng dẫn thanh toán</a></li>
+            </ul>
+          </div>
+          <div class="a4">
+            <p class="title_f">Địa chỉ mua hàng</p>
+            <ul>
+              <li>
+                <p>
+                  Địa chỉ: Số 246/9B/29 Xô Viết Nghệ Tĩnh, Phường 21, Quận Bình
+                  Thạnh, TP HCM.
+                </p>
+              </li>
+              <li><p>hotline: 0903.365.247</p></li>
+              <li><p>email: cskh@chilashop.com.</p></li>
+              <li><p>website: https://chilashop.com/</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottomend"></div>
+      </div>
+    </div>
+  </body>
+</html>

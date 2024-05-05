@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1px;
+    /* Thiết lập font-size của html thành 1px */
+}
+div.main {
+    max-width: 1440px;
+    font-size: 14px;
+    /* Thay đổi kích thước font mặc định (ví dụ 16px) */
+    padding: 0 120px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* thongtin */
+/* top */
+div.main div.thongtintop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #599736;
+    width: 100%;
+    color: #FFF;
+    padding: 5px 10px;
+    align-items: center;
+}
+div.main div.thongtintop div.left {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+div.main div.thongtintop div.right {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+div.main div.thongtintop a {
+    color: #FFF;
+    text-decoration: none;
+}
+div.main div.thongtintop a:hover {
+    color: yellow;
+}
+/* center */
+div.main div.thongtincenter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71BF45;
+    width: 100%;
+    align-items: center;
+}
+div.main div.thongtincenter a {
+    text-decoration: none;
+}
+div.main div.thongtincenter a:hover {
+    color: yellow;
+}
+/* Style thanh tìm kiếm */
+.search-container {
+    position: relative;
+    margin: 50px auto;
+    max-width: 300px;
+}
+.search-input {
+    padding: 10px 40px 10px 10px;
+    /* Thêm padding để icon nằm trong input */
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn các góc cho input */
+    outline: none;
+    background-color: #f2f2f2;
+    /* Màu nền */
+}
+.search-input::placeholder {
+    color: #999;
+    /* Màu chữ placeholder */
+}
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background-color: transparent;
+    /* Loại bỏ màu nền */
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn các góc cho nút search */
+    color: #000;
+    /* Đặt màu chữ cho nút search */
+    cursor: pointer;
+}
+/* bottoom */
+div.main div.thongtinbottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71BF45;
+    width: 100%;
+    height: 45px;
+    padding: 0 14px;
+    align-items: center;
+}
+div.main div.thongtinbottom a {
+    text-decoration: none;
+    color: white;
+}
+div.main div.thongtinbottom a:hover {
+    color: yellow;
+}
+div.main div.thongtinbottom div.baohanh button{
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: red;
+    border: none;
+}
+/* banner */
+div.banner {
+    display: flex;
+    width: 80%;
+    /* padding: 0 2px; */
+    /* justify-content: space-between; */
+}
+div.main div.banner div.left div.subsanpham {
+    width: 190rem;
+    height: auto;
+}
+div.main div.banner div.subsanpham {
+    background-color: #FFF;
+    width: 130rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: #000;
+}
+div.main div.banner div.subsanpham img {
+    width: 25px;
+    height: 25px;
+}
+div.main div.subsanpham a {
+    text-decoration: none;
+    color: black;
+}
+div.banner div.center img {
+
+    height: aotu;
+}
+div.banner div.right img {
+    width: 250rem;
+}
+
+/* info */
+.produc-thumb img{
+    border-radius: 12px;
+}
+
+.tilted-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    /* background-color: gray; */
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transform: skew(-10deg);
+    transition: transform 0.3s ease;
+    border: 0.01px solid black;
+  }
+
+  .tilted-btn:hover {
+    transform: skew(-10deg) scale(1.1);
+    background-color: chartreuse;
+  }
+/* hot */
+.hot {
+    background-image: linear-gradient(#71BF45, #CEFEB2);
+    height: 380px;
+    border-radius: 15px;
+}
+
+div.hot .headline {
+    text-align: center;
+    padding: 10rem 0;
+}
+
+div.hot .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: yellow;
+}
+
+div.hot ul.produc {
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+div.hot ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.hot ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.hot .produc-info a {
+    text-decoration: none;
+    /* display: block; */
+    color: black;
+}
+
+/* mồi câu */
+div.moi .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.moi .headline div.right {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.moi .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.moi div.right a {
+    font-size: 14px;
+
+}
+
+div.moi ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.moi ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.moi ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.moi .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* cần câu */
+div.can .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.can .headline div.right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.can .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.can div.right a {
+    font-size: 14px;
+
+}
+
+div.can ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.can ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.can ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.can .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* dây câu */
+div.day .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.day .headline div.right {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.day .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.day div.right a {
+    font-size: 14px;
+
+}
+
+div.day ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.day ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.day ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.day .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* phụ kiện */
+div.phu .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.phu .headline div.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.phu .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.phu div.right a {
+    font-size: 14px;
+
+}
+
+div.phu ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.phu ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.phu ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.phu .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* phao câu */
+div.phao .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.phao .headline div.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.phao .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.phao div.right a {
+    font-size: 14px;
+
+}
+
+div.phao ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.phao ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.phao ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.phao .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* thùng câu */
+div.thung .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.thung .headline div.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.thung .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.thung div.right a {
+    font-size: 14px;
+
+}
+
+div.thung ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.thung ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.thung ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.thung .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* vợt */
+div.vot .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.vot .headline div.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.vot .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.vot div.right a {
+    font-size: 14px;
+
+}
+
+div.vot ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.vot ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.vot ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.vot .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+/* lưỡi câu */
+div.luoi .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.luoi .headline div.right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.luoi .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.luoi div.right a {
+    font-size: 14px;
+
+}
+
+div.luoi ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.luoi ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.luoi ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.luoi .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+/* thời trang */
+div.thoitrang .headline {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+div.thoitrang .headline div.right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.thoitrang .headline a {
+    text-decoration: none;
+    font-size: 20rem;
+    color: black;
+}
+
+div.thoitrang div.right a {
+    font-size: 14px;
+
+}
+
+div.thoitrang ul.produc {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.thoitrang ul.produc li {
+    flex-basis: 19%;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 0 0 6px #d9d9d9;
+    padding: 2px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+div.thoitrang ul.produc li img {
+    width: 100%;
+    height: auto;
+}
+
+div.thoitrang .produc-info a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/* End */
+div.main div.end div.topend {
+    background: #71BF45;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 5%;
+    margin-bottom: 15px;
+}
+
+div.main div.end div.topend ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+div.main div.end div.ceneterend {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+    grid-gap: 20px 3%;
+    padding: 50px 0;
+}
+
+div.main div.end div.ceneterend a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* icon shopping*/
+.shopping-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+
+  .shopping-cart a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+  }
+
+  .shopping-cart a:hover {
+    background-color: #0056b3;
+  }

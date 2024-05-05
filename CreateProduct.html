@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Product</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .container {
+        max-width: 1440px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Add Product</h2>
+      <form id="productForm">
+        <label for="productName">Tên Sản Phẩm:</label>
+        <input type="text" id="productName" name="productName" required /><br />
+
+        <label for="productImage">Link hình ảnh:</label>
+        <input
+          type="text"
+          id="productImage"
+          name="productImage"
+          required
+        /><br />
+
+        <label for="productCategory">Danh Mục:</label>
+        <input
+          type="text"
+          id="productCategory"
+          name="productCategory"
+          required
+        /><br />
+
+        <label for="productPrice">Giá:</label>
+        <input
+          type="text"
+          id="productPrice"
+          name="productPrice"
+          required
+        /><br />
+
+        <button type="submit">Thêm Sản Phẩm</button>
+      </form>
+    </div>
+
+    <script>
+      document.getElementById("productForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Lấy dữ liệu từ form
+    const productName = document.getElementById("productName").value;
+    const productImage = document.getElementById("productImage").value;
+    const productCategory = document.getElementById("productCategory").value;
+    const productPrice = document.getElementById("productPrice").value;
+
+    // Tạo object mới chứa dữ liệu sản phẩm
+    const newProduct = {
+        "name": productName,
+        "image": productImage,
+        "category": productCategory,
+        "price": productPrice
+    };
+
+    // Gửi yêu cầu POST đến URL "/addProduct" trên máy chủ
+    fetch("/addProduct", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newProduct)
+    })
+    .then(response => response.json())
+    .then(data => {
+        // console.log("Product added successfully:", data);
+        alert("thanh cong")
+        // Đoạn code này có thể được thay thế bằng các hành động cụ thể
+        // như hiển thị thông báo thành công hoặc làm mới trang, v.v.
+    })
+    .catch(error => {
+        // console.error("Error adding product:", error);
+        alert("khong thanh cong")
+    });
+});
+
+    </script>
+  </body>
+</html>
